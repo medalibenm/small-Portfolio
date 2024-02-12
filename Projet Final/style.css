@@ -1,0 +1,597 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+    background-color: white;
+    color: black;
+}
+.nav {
+    display: flex;
+}
+.biglogo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Audiowide';
+    font-size: 35px;
+}
+.logos {
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.navbar-list {
+    flex: 1;
+    display: flex;
+align-items: center;
+justify-content: center;
+font-weight: bolder;
+}
+#applelogo {
+    margin-right: 45px;
+    display: 1;
+} 
+#samsunglogo {
+    margin-left: 45px;
+    margin-right: 45px;
+    display: 1;
+} 
+#huaweilogo {
+    margin-left: 45px;
+    display: 1;
+} 
+.list {
+display: flex;
+}
+.listt {
+    display: flex;
+}
+.li {
+    flex: 1;
+    list-style-type: none;
+    margin: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+    color:grey;
+}
+#li2:hover {
+    color:lightgray;
+}
+#li1:hover {
+    color:lightgray;
+}
+#usericon {
+    margin: 20px; 
+} 
+ #bagicon {
+    margin: 20px;
+}
+#li1 {
+    text-decoration: none;
+    margin-right: 55px;  
+    color:grey;
+}
+
+#li2 {
+    text-decoration: none; 
+    color:grey;
+}
+
+#button1 {
+    margin-left: 15px;
+    background: none;
+    border: none;
+}
+#button2 {
+    background: none;
+    margin-left: 5px;
+    border: none;
+}
+/* font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+#iphonepic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+}
+#iphone13 {
+    width: 640px;
+    height: 640px;
+    top:0;
+}
+.boxleft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content:center;
+    align-items:center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.textonleft {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content:flex-end;
+    align-items:center;
+    }
+.content1 {
+    display: flex;
+    padding-bottom: 55px;
+}
+.textonright {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content:center;
+    align-items:center;
+}
+.h2text {
+    font-family: 'Nunito', sans-serif; 
+    font-size: 45px; 
+}
+.h3text {
+    font-family: 'Nunito', sans-serif; 
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+#color {
+    margin: 4px;
+    text-shadow: 5px 5px 8px #000000;
+}
+#color:hover {
+    border: darkcyan 3px solid;
+    cursor: pointer;
+    border-radius: 100px;
+    text-shadow:none;
+}
+.colors {
+    display: 1;
+    flex: 1;
+    justify-content:center;
+    align-items:center;
+}
+#buttonforcolor {
+    border: none;
+    margin: 4px;
+    text-shadow: 5px 5px 8px #000000;
+    background:none;
+}
+#buttonforcolor:hover {
+    border: darkcyan 3px solid;
+    cursor: pointer;
+    border-radius: 100px;
+    transform:scale(1.1,1.1);
+    text-shadow:none;
+}
+.h2text1 {
+    font-family: 'Nunito', sans-serif; 
+    font-size: 32px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h3text1 {
+    font-family: 'Nunito', sans-serif; 
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.h4text1 {
+    font-family: 'Nunito', sans-serif; 
+    font-weight: lighter;
+    color: grey;
+    padding: 5px;
+}
+.buynowbutton {
+    padding-top: 30px;
+}
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    text-decoration: none; 
+    color:grey;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+@media only screen and (max-width: 600px) {
+    .nav {
+      flex-direction: column-reverse;
+      display: flex;
+    }
+    .pic4 {
+        display: flex;
+        flex-direction: column;
+    }
+    .content3 {
+        height: 150px;
+        background-color:#12213a ;
+        display: flex;
+        flex-direction: column;
+    }
+    .forresponsive {
+        flex:1;
+        width: 450px;
+        height: 450px;
+        padding-left:33px;
+    }
+    .content1 {
+        flex-direction: column;
+        display: flex;
+    }
+    #iphonepic {
+        width: 300px;
+        height: 300px;
+    }
+    #pinkiphone13 {
+        height: 287px;
+        width: 480px;
+    }
+    #iphone13 {
+        width: 260px;
+        height: 260px;
+        position: relative;
+        left: 90px;
+        }
+        .pic3 {
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+        }
+        .content4 {
+            background-color: #35283c;
+            height: 780px;
+            flex-direction: column;
+            display: flex;
+        }
+        .samsungbuy {
+            height: 1000px;
+            font-family: 'Nunito', sans-serif; 
+            font-weight: bolder;
+            display: flex;
+            background-color:#2e2e3a;
+            flex-direction: column;
+            color: white;
+        }
+}
+
+    /* ----------------------RESPOSIVE WEB DESIGN---------------------------  */
+    .content2 {
+        height: 530px;
+        background-color: #0c3139;
+    }
+    .iphonepic2 {
+        display: flex;
+        justify-content: center;
+    }
+    .titlepink {
+        display: flex;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif; 
+        font-size: 66px;
+        padding-top: 30px;
+        color: white;
+    }
+    .titlepink2 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif; 
+        font-size: 35px;
+        font-weight: bolder;
+        color: pink;
+    }
+    .content3 {
+        height: 800px;
+        background-color:#12213a ;
+        display: flex;
+        flex-direction: column;
+              }
+.pic3 {
+    display: flex;
+    justify-content: center;
+position: relative;
+    top: 40px;
+    flex: 1;
+}
+.pic4 {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.text06 {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Nunito', sans-serif; 
+    align-items: center;
+    flex: 1;
+    color: white;
+}
+.pic4text {
+   margin-bottom: 80px;
+}
+.forresponsive {
+    flex:1;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+/* #aa {
+    text-decoration: none; 
+    color: black;
+    margin-right: 55px;
+} */
+.content4 {
+    background-color: #35283c;
+    height: 780px;
+    flex-direction: column;
+    display: flex;
+}
+.div1 {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      flex-direction:column ;
+      color:white;
+      padding-bottom: 50px;
+}
+#chip {
+    padding-top: 85px;
+    color: pink;
+}
+.chiph2 {
+padding-top: 30px;
+font-family: 'Nunito', sans-serif;  
+padding-bottom: 15px;
+font-size:32px;
+}
+.chiph3 {
+    font-size: 16px;
+}
+.chiptext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+.div2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    color:white;
+}
+#camera {
+    color: pink;
+}
+.cameratext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+}
+.camh2 {
+    padding-top: 30px;
+    font-family: 'Nunito', sans-serif;  
+    padding-bottom: 15px;
+    font-size:32px;
+    }
+.camh3 {
+        font-size: 16px;
+    }
+    .div3 {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-direction:column ;
+        color:white;
+    }
+    #batt {
+        color: pink;
+    }
+    .batttext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Nunito', sans-serif;
+    }
+    .batth2 {
+        padding-top: 30px;
+        font-family: 'Nunito', sans-serif;  
+        padding-bottom: 15px;
+        font-size:32px;
+        }
+        .batth3 {
+            font-size: 16px;
+        }
+   #video {
+       position: relative;
+       top: 0;
+       left: 0;
+       height: 100%;
+       width: 100%;
+       object-fit: cover;
+   }
+   .samsungbuy {
+       height: 800px;
+       font-family: 'Nunito', sans-serif; 
+       font-weight: bolder;
+       display: flex;
+       background-color:#2e2e3a;
+       color: white;
+   }
+   .huaweibuy {
+    height: 1200px;
+    font-family: 'Nunito', sans-serif; 
+    font-weight: bolder;
+    background-color: #2e2e3a;
+    color: white;
+}
+   .sleft {
+       flex: 1;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding-top: 30px;
+   }
+   .sright {
+       flex: 1;
+       font-weight: lighter;
+       font-size: 12px;
+       display: flex;
+       align-items: center;
+       padding-top:30px; ;
+       flex-direction: column;
+   }
+   .subs {
+    font-weight: lighter;
+    color: ray;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-left:10px ;
+   } 
+   .h2s {
+    font-weight: bold;
+    font-size: 45px;
+    font-family: sans-serif;
+   }
+   #s21s {
+       padding-top: 40px;
+   }
+   .rtitre {
+    font-weight: bold;
+    font-size: 26px;
+   }
+   .rh3 {
+    font-weight: lighter;
+    color: gray;
+    font-size: 15px;
+    padding-top: 10px;
+   }
+   .idk {
+       width:80%;
+       flex: 1;
+       font-weight: lighter;
+       font-size: 12px;
+       display: flex;
+       align-items: center;
+       padding-top:30px; ;
+       flex-direction: column;
+   }
+  
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(241, 142, 12);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #bba83b;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #2e2e3a;
+  padding: 20px;
+  width: 80%;
+}
+.iii {
+    display: flex;
+    justify-content: center;
+}
+
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #2e2e3a;
+    color: white;
+  }
+  .forfont {
+    font-family: 'Nunito', sans-serif; 
+    font-weight: bolder;
+    padding-top: 30px;
+    background-color: #2e2e3a;
+    color: white;
+  }
+  footer h2 {
+      justify-content: center;
+      display: flex;
+      background-color: lightgrey;
+    font-size: 20px;
+  }
+  footer img {
+    background-color: lightgrey;
+  }
+  footer {
+    background-color:lightgrey;
+  }
+  .ytb {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #2e2e3a;
+  }
+  @media only screen and (min-width: 1080px) {
+    .pic4 {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}
+  
+
+
+   

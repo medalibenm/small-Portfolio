@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    background-color: white;
+    background-image: url(./18-185350_discord-logo-discord-light-theme-meme.png);
+    background-repeat: no-repeat;
+ background-size: 80px;
+ background-position: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu {
+    color: grey;
+    font-size: 16px;
+    justify-content: flex-end;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+.poster {
+ flex: 1;
+ background-color:rgb(114, 137, 217);
+ background-image:url(./discord.jpg);
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position: left;
+ padding: 20px;
+}
+.main-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.second-title {
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.A {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+span a{
+        display: block;
+        height: 50px;
+        width: 200px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-family: 'Teko', sans-serif;
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+        background:none;
+        border: 2px solid white;
+        border-radius: 100px;
+}
+span a:hover{
+    background-color: whitesmoke;
+    color: maroon;
+}
+.cards-container {
+    flex:2;
+    background-color: whitesmoke;
+}
+.cards  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    margin: 30px;
+}
+.card-item {
+    flex: 1;
+    background-color: white;
+    margin: 15px;
+    height: 320px;
+}
+.icon {
+ display: flex;
+ justify-content: center;
+ margin: 25px;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.sub-title {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: grey;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+img {
+    border-radius: 100px;
+}
+.img1 {
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    justify-content: flex-start;
+}
+.list {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+}
+.li {
+    padding: 15px;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+ header a:hover {
+    color:maroon;
+    border-bottom: 2px red solid;
+    transform: scale(1.5);
+}
+@media screen and (max-width:600px) {
+    header,.list {
+        flex-direction: column;
+
+    }
+    .cards {
+        flex-direction: column;
+    }
+    
+}

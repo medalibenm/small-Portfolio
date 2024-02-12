@@ -1,0 +1,37 @@
+.flex-item {
+    background-color: blue;
+    color: white;
+    /* flex: 1; */
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+}
+.flex-container {
+    display: flex;
+    /* Alignement */
+    /* justify-content: 
+     flex-start
+     flex-end
+     space-between
+     space-around
+     center
+     */
+    justify-content: space-around;
+    /* flex-direction: column,row,row-reverse,column-reverse; */
+    flex-direction: row;
+    list-style: none;
+    background-color: black;
+    height: 600px;
+}
+.flex-item1 {
+    /* flex: 3; */
+    background-color: red;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+}

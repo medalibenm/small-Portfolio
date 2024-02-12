@@ -1,0 +1,46 @@
+#A {
+ border: 3px dashed darkcyan;
+}
+#B {
+    border: 3px dotted purple;
+}
+#C {
+    border: 3px solid red;
+}
+.mydiv {
+    /*background-color: darkgoldenrod;*/
+    background-image: url(./img.jpg);
+    color:black; /* we can use rgb or code */
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* or scroll*/
+}
+.div1 {
+    width:50%;
+    height:100px;
+    background-color: aqua;
+}
+#element {
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+    border: 10px solid blue;
+    padding: 20px;
+    margin: 40px;
+}
+.fonts {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Amiri', serif;
+}
+a {
+    text-decoration: none;
+    color: crimson;
+}
+a:hover {
+    background-color: rgb(8, 8, 8);
+}
+a:active {
+    color: navy;
+}
