@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    height: 10vh;
+    background-color: #E0E0E0;
+    display: flex;
+    justify-content: center; /* Center both items */
+    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+    font-weight: 1000;  
+}
+
+.title1 {
+    padding: 15px;
+}
+
+.logo {
+    padding: 15px;
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+}
+main {
+    /* background-color:#6e2d2d; */
+    background-color: white;
+    height: 900px;
+    display: flex;
+}
+.left {
+    height: 90vh;
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    background-color: #B29E84;
+    height: 750px;
+    width: 900px;
+    border-radius: 12%;
+    margin: 35px;
+}
+.fromto {
+    display: flex;
+    justify-content: center;
+    margin: 120px;
+}
+.fromto select {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 120px;
+}
+.footer {
+    height: 10vh;
+    background-color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+}
+#from {
+    background-color: white;
+    height: 55px;
+    width: 200px;
+    border-radius: 35px;
+    display: flex;
+    padding-left: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+#to {
+    background-color: white;
+    height: 55px;
+    width: 200px;
+    border-radius: 35px;
+    display: flex;
+    padding-left: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 1000;
+}
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#number {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: black;
+    padding-left: 5px;
+}
+#submit {
+    margin-bottom: 20px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+#output {
+    margin-top: 20px;
+    width: 500px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: black;
+    padding-left: 5px;
+}
+#n1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+#n2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* Add this at the end of your existing CSS */
+
+@media screen and (max-width: 800px) {
+/* Update the existing styles for header and logo */
+
+    #header {
+        flex-direction: row; /* Reset direction for larger screens */
+    }
+
+    .title1 {
+        margin-left: 15px; /* Add margin between title and logo */
+    }
+    .logo {
+        order: unset; /* Reset the order for stacking vertically */
+    }
+    .left {
+        position: static;
+        margin-top: 15px;
+    }
+    .box {
+        width: 80%; /* Adjust the width as needed */
+        margin: 0 auto;
+    }
+    .fromto {
+        flex-direction: column;
+        align-items: center;
+        margin: 80px;
+        margin-bottom: 90px;
+    }
+    .fromto select {
+        margin: 5px;
+    }
+    .second {
+        margin: 15px;
+    }
+    #number, #output {
+        width: 100%; /* Adjust the width as needed */
+    }
+    #n1, #n2 {
+        width: auto;
+        text-align: center;
+    }
+}
